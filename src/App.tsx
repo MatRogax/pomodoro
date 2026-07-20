@@ -6,7 +6,7 @@ import './styles/global.css';
 
 import { Container } from './components/Container';
 import { Logo } from './components/Logo';
-import { Heading } from './components/Heading';
+import { Menu } from './components/Menu';
 
 const App: React.FC = () => (
   <>
@@ -15,7 +15,7 @@ const App: React.FC = () => (
     </Container>
 
     <Container>
-      <Heading>Menu</Heading>
+      <Menu />
     </Container>
   </>
 );
