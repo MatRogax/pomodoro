@@ -1,20 +1,22 @@
 import React from 'react';
 import './styles/global.css';
-import { Heading } from './components/Heading';
+
 import './styles/theme.css';
 import './styles/global.css';
-import { TimerIcon } from 'lucide-react';
+
+import { Container } from './components/Container';
+import { Logo } from './components/Logo';
+import { Heading } from './components/Heading';
 
 const App: React.FC = () => (
   <>
-    <Heading>
-      hello world
-      <button>
-        <TimerIcon />
-      </button>
-    </Heading>
+    <Container>
+      <Logo />
+    </Container>
 
-    <p>lore impum bla bla bla bla</p>
+    <Container>
+      <Heading>Menu</Heading>
+    </Container>
   </>
 );
 
